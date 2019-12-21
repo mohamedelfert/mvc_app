@@ -1,0 +1,51 @@
+<!-- The main Div contain Add Form And Show Information -->
+<div class="main_div">
+    <!-- Add Employees Information -->
+    <div class="emp_form" style="margin-top:10px">
+        <form class="app_form" method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend><?= $text_add_employee ?></legend>
+                <table>
+                    <tr>
+                        <td><label for="name"><?= $text_employee_name ?> :</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="name" id="name" placeholder="Write Your Name Here !" required> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="age"><?= $text_employee_age ?> :</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="age" id="age" min="23" max="45" required ></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address"><?= $text_employee_address ?> :</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="address" id="address" placeholder="Write Your Address Here !" required </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="salary"><?= $text_employee_salary ?> :</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="salary" id="salary" step="0.01" min="1500" max="7000" required </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="tax"><?= $text_employee_tax ?> :</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="tax" id="tax" step="0.01" min="1" max="5" required ></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" name="submit" value="<?= $text_button_add ?>"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</div>

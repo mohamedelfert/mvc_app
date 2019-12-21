@@ -1,0 +1,22 @@
+<?php
+$_['text_add_employee']           = 'Add New Employee';
+$_['text_update_employee']        = 'Edit Employee Information';
+$_['text_employees_information']  = 'Employees Information';
+$_['text_employee_name']          = 'Name';
+$_['text_employee_age']           = 'Age';
+$_['text_employee_address']       = 'Address';
+$_['text_employee_salary']        = 'Salary';
+$_['text_employee_tax']           = 'Tax';
+$_['text_options']                = 'Control';
+$_['text_delete_confirm']         = 'Do You Want To Delete This Employee ?';
+$_['text_button_add']             = 'Add';
+$_['text_button_update']          = 'Update';
+$_['text_no_employee_data']       = 'Sorry No Employees Data In This List Now';
+$_['text_employee_gender']        = 'Gender';
+$_['text_employee_gender_male']   = 'Male';
+$_['text_employee_gender_female'] = 'Female';
+$_['text_shift']                  = 'Shift';
+$_['text_shift_select']           = 'Select Type Of Shift ?';
+$_['text_shift_full']             = 'Full Time';
+$_['text_shift_part']             = 'Part Time';
+$_['text_notes']                  = 'Notes';

@@ -1,0 +1,22 @@
+<?php
+$_['text_add_employee']           = 'إضافة موظف جديد';
+$_['text_update_employee']        = 'تعديل بيانات الموظف';
+$_['text_employees_information']  = 'معلومات الموظفين';
+$_['text_employee_name']          = 'الإسم';
+$_['text_employee_age']           = 'العمر';
+$_['text_employee_address']       = 'العنوان';
+$_['text_employee_salary']        = 'الراتب';
+$_['text_employee_tax']           = 'الضريبة';
+$_['text_options']                = 'التحكم';
+$_['text_delete_confirm']         = 'هل تريد حذف هذا الموظف ؟';
+$_['text_button_add']             = 'إضافة';
+$_['text_button_update']          = 'تحديث';
+$_['text_no_employee_data']       = 'لا يوجد بيانات لأي موظف متاحة حاليا';
+$_['text_employee_gender']        = 'النوع';
+$_['text_employee_gender_male']   = 'ذكر';
+$_['text_employee_gender_female'] = 'أنثي';
+$_['text_shift']                  = 'نوع العمل';
+$_['text_shift_select']           = 'إختار نوعية العمل ؟';
+$_['text_shift_full']             = 'دوام كامل';
+$_['text_shift_part']             = 'دوام جزئي';
+$_['text_notes']                  = 'ملاحظات';
